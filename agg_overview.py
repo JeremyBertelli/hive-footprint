@@ -18,8 +18,8 @@ from pathlib import Path
 # Default paths
 # ---------------------------------------------------------------------
 
-INPUT_CSV = Path("/path/to/inwi_hive_tables_aggregated.csv")
-OUTPUT_MD = INPUT_CSV.parent / "inwi_hive_migration_overview.md"
+INPUT_CSV = Path("/path/to/hive_tables_aggregated.csv")
+OUTPUT_MD = INPUT_CSV.parent / "hive_migration_overview.md"
 
 
 # ---------------------------------------------------------------------
